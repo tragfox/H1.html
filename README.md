@@ -73,3 +73,7 @@
         cài đặt Docker , prettier trong vscode
         
         prettier giúp định dạng code auto về cơ bản để làm sạch code
+    
+    13. ko  thực sự cần phải biết nodeJS để code , có thể sử dụng nhiều ngôn ngữ khác cho Docker
+
+        Khởi tạo 1 file docker - run comande docker build 
