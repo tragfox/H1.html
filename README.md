@@ -77,3 +77,21 @@
     13. ko  thực sự cần phải biết nodeJS để code , có thể sử dụng nhiều ngôn ngữ khác cho Docker
 
         Khởi tạo 1 file docker - run comande docker build 
+        
+    17. tìm hiểu cách sử dụng hình ảnh tùy chỉnh và tạo sẵn
+
+            tìm hiểu xem cách ta có thể tạo, chạy và quản lí các vùng chứa docker
+ 
+    18. sử dụng hình ảnh để tạo nhiều vùng chứa dựa trên hình ảnh đó
+ 
+            hình ảnh trong đó là bản thiết kế, mẫu chứa mã và ứng dụng và vùng chứa, sau đó là ứng dụng chạy
+ 
+    19. docker run node dùng để tạo 1 vùng chứa được gọi là dựa trên hình ảnh
+ 
+            dùng docker PS -a
+ 
+            ps là viết tắt của các quy trình , còn với -a là sẽ hiển thị cho bạn tất cả các quy trình tất các vùng chứa docker đã tạo ra cho cta
+ 
+            dùng docker run -it node kiểm tra phiên bản tương tác
+ 
+            Control +C để thoát khỏi vùng chứa
